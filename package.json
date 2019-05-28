@@ -4,8 +4,26 @@
   "description": "bestReactInstumentsPractise",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "aleksandr rybin",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrRyb/ReactBoilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AleksandrRyb/ReactBoilerplate/issues"
+  },
+  "homepage": "https://github.com/AleksandrRyb/ReactBoilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
 }
